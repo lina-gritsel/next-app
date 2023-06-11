@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React, { FC } from "react";
 
-import styles from "./Header.module.css";
+import styles from "./Header.module.scss";
 import { usePathname } from "next/navigation";
 
 const Header: FC = () => {
@@ -11,10 +11,10 @@ const Header: FC = () => {
 
   return (
     <div className={styles.header}>
-      <Link href="/" className={pathname === "/" ? "active" : ""}>
+      <Link href="/" className={pathname === "/" ? styles.active : ""}>
         Home
       </Link>
-      <Link href="/about" className={pathname === "/about" ? "active" : ""}>About</Link>
+      <Link href="/about" className={pathname === "/about" ? styles.active : ""}>About</Link>
     </div>
   );
 };
