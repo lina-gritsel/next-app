@@ -1,9 +1,12 @@
-import React from 'react'
+import Layout from "@/components/layout/Layout";
+import React from "react";
 
 const AboutPage = () => {
   return (
-    <h2>AboutPage</h2>
-  )
-}
+    <Layout>
+      <h2>AboutPage</h2>
+    </Layout>
+  );
+};
 
-export default AboutPage
+export default AboutPage;

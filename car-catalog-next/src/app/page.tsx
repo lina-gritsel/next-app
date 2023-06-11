@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>Welcome to Next.js world</h1>;
+import Home from "@/components/screens/home/Home";
+
+export default function HomePage() {
+  return <Home />;
 }
