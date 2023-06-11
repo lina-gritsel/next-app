@@ -1,6 +1,7 @@
-import React, { FC } from "react";
+import { FC } from "react";
 
-import Layout from "@/components/layout/Layout";
+import Layout from "@/components/layout";
+
 
 
 const Home: FC = () => {
